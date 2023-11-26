@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Navigation Bar</string>
+    <string  name="page_1">Home</string>
+    <string  name="page_2">Notification</string>
+    <string  name="page_3">Explore</string>
+    <string  name="page_4">Profile</string>
+    <string name="unavailable">無法開啟該頁面，因為還未實作</string>
 </resources>
