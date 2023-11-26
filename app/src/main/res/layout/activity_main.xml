@@ -55,7 +55,6 @@
                         android:contentDescription="圖片說明"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/media1" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -93,7 +92,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
                             android:text="Like" />
-
                         <com.google.android.material.button.MaterialButton
                             style="?attr/borderlessButtonStyle"
                             android:layout_width="wrap_content"
@@ -129,7 +127,6 @@
                         android:contentDescription="圖片說明"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/media2" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -142,7 +139,6 @@
                             android:layout_height="wrap_content"
                             android:text="Königssee"
                             android:textAppearance="?attr/textAppearanceTitleMedium" />
-
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -166,7 +162,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
                             android:text="Like" />
-
                         <com.google.android.material.button.MaterialButton
                             style="?attr/borderlessButtonStyle"
                             android:layout_width="wrap_content"
@@ -200,7 +195,6 @@
                         android:contentDescription="圖片說明"
                         android:scaleType="centerCrop"
                         app:srcCompat="@drawable/media3" />
-
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -237,7 +231,6 @@
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="8dp"
                             android:text="Like" />
-
                         <com.google.android.material.button.MaterialButton
                             style="?attr/borderlessButtonStyle"
                             android:layout_width="wrap_content"

@@ -45,8 +45,8 @@ class MainActivity : AppCompatActivity() {
         Snackbar.make(contextView, R.string.unavailable, Snackbar.LENGTH_SHORT)
             .show()
     }
-
     private fun changeTitle(title: String) {
         binding.textView.text = title
+
     }
 }
