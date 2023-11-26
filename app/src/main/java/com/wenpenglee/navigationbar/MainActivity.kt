@@ -17,18 +17,22 @@ class MainActivity : AppCompatActivity() {
         binding.bottomNavigation.setOnItemSelectedListener {item ->
             when(item.itemId) {
                 R.id.page_1 -> {
+                    changeTitle(item.title.toString())
                     true
                 }
                 R.id.page_2 -> {
                     showSnackBar()
+                    changeTitle(item.title.toString())
                     true
                 }
                 R.id.page_3 -> {
                     showSnackBar()
+                    changeTitle(item.title.toString())
                     true
                 }
                 R.id.page_4 -> {
                     showSnackBar()
+                    changeTitle(item.title.toString())
                     true
                 }
                 else -> false
@@ -40,5 +44,9 @@ class MainActivity : AppCompatActivity() {
         val contextView = findViewById<View>(R.id.bottom_navigation)
         Snackbar.make(contextView, R.string.unavailable, Snackbar.LENGTH_SHORT)
             .show()
+    }
+    private fun changeTitle(title: String) {
+        binding.textView.text = title
+
     }
 }
